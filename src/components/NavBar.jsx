@@ -34,6 +34,7 @@ const NavBar = () => {
               alt=""
               loading="lazy"
             />
+            MORVAC TRANSPORTS
           </div>
         </MDBNavbarBrand>
         <MDBNavbarToggler

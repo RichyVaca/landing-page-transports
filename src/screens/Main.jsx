@@ -17,6 +17,8 @@ import bg3 from "../assets/imgCour3.jpg";
 import mision from "../assets/mision.png";
 import vision from "../assets/vision.png";
 import values from "../assets/values.png";
+import ServiceBox from "../components/ServiceBox";
+import RoutesMex from "../components/RoutesMex";
 
 const Main = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -66,7 +68,7 @@ const Main = () => {
                 style={{ height: "600px", objectFit: "cover", width: "100%" }}
               />
               <MDBCarouselCaption>
-                <h4>Servicios de transporte</h4>
+                <h4>SERVICIO DE TRANSPORTE</h4>
                 <p>
                   <em>Transporte seguro y eficiente.</em>
                 </p>
@@ -92,7 +94,7 @@ const Main = () => {
           {/* Nosotros section */}
 
           <MDBContainer className="mb-5">
-            <h1>Nosotros</h1>
+            <h1>NOSOTROS</h1>
             <MDBRow className="mt-5">
               <MDBCol className="col-2">
                 <img src={mision} alt="" className="img-fluid" />
@@ -136,13 +138,25 @@ const Main = () => {
                     <em>
                       {" "}
                       <MDBListGroup style={{ minWidthL: "12rem" }} light>
-                        <MDBListGroupItem active noBorders className="m-2 p-3">
+                        <MDBListGroupItem
+                          active
+                          noBorders
+                          className="m-2 p-3 shadow-4"
+                        >
                           Integridad
                         </MDBListGroupItem>
-                        <MDBListGroupItem active noBorders className="m-2 p-3">
+                        <MDBListGroupItem
+                          active
+                          noBorders
+                          className="m-2 p-3 shadow-4"
+                        >
                           Transparencia
                         </MDBListGroupItem>
-                        <MDBListGroupItem active noBorders className="m-2 p-3">
+                        <MDBListGroupItem
+                          active
+                          noBorders
+                          className="m-2 p-3 shadow-4"
+                        >
                           Compromiso
                         </MDBListGroupItem>
                       </MDBListGroup>
@@ -152,13 +166,25 @@ const Main = () => {
                     <em>
                       {" "}
                       <MDBListGroup style={{ minWidthL: "12rem" }} light>
-                        <MDBListGroupItem active noBorders className="m-2 p-3">
+                        <MDBListGroupItem
+                          active
+                          noBorders
+                          className="m-2 p-3 shadow-4"
+                        >
                           Confianza
                         </MDBListGroupItem>
-                        <MDBListGroupItem active noBorders className="m-2 p-3">
+                        <MDBListGroupItem
+                          active
+                          noBorders
+                          className="m-2 p-3 shadow-4"
+                        >
                           Adaptabilidad
                         </MDBListGroupItem>
-                        <MDBListGroupItem active noBorders className="m-2 p-3">
+                        <MDBListGroupItem
+                          active
+                          noBorders
+                          className="m-2 p-3 shadow-4"
+                        >
                           Orientación al Cliente
                         </MDBListGroupItem>
                       </MDBListGroup>
@@ -173,8 +199,27 @@ const Main = () => {
 
           <hr className="hr" />
           <MDBContainer className="mb-5">
-            <h1 className="text-end">Servicios de transporte</h1>
+            <h1
+              className="text-end mb-5"
+              style={{ textTransform: "uppercase" }}
+            >
+              SERVICIOS DE TRANSPORTE
+            </h1>
+            <MDBRow className="">
+              <ServiceBox name="Plana" icon="truck-loading" />
+              <ServiceBox name="Gondola" icon="truck" />
+              <ServiceBox name="Aceite" icon="oil-can" />
+              <ServiceBox name="Personalizados" icon="bus" />
+            </MDBRow>
           </MDBContainer>
+          <hr className="hr my-3" />
+          <MDBContainer>
+            <h1 className=" mb-5" style={{ textTransform: "uppercase" }}>
+              RUTAS DE TRASLADOS
+            </h1>
+
+          </MDBContainer>
+            <RoutesMex />
         </>
       )}
     </>
