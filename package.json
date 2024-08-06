@@ -2,7 +2,7 @@
   "name": "landing-page-transports",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://richyvaca.github.io/landing-page-transports/",
+  "homepage": "https://richyvaca.github.io/landing-page-transports/build",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@testing-library/jest-dom": "^5.17.0",
