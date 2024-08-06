@@ -14,7 +14,7 @@ const RoutesMex = () => {
         }}
       >
         <MDBContainer>
-          <MDBRow className="m-3 p-3 ">
+          <MDBRow className="m-3 p-5 ">
             <MDBCol size="md opacity-90">
               <MDBListGroup className="">
                 <MDBListGroupItem className="" color="dark" action>GUADALAJARA</MDBListGroupItem>
