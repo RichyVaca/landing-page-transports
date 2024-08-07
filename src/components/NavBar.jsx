@@ -28,12 +28,7 @@ const NavBar = () => {
         <MDBNavbarBrand href="#">
           {" "}
           <div className="hover-zoom">
-            <img
-              src={logo}
-              height="40"
-              alt=""
-              loading="lazy"
-            />
+            <img src={logo} height="40" alt="" loading="lazy" />
             MORVAC TRANSPORTS
           </div>
         </MDBNavbarBrand>
@@ -74,9 +69,9 @@ const NavBar = () => {
                 </MDBTypography>
               </MDBNavbarLink>
             </MDBNavbarItem>
+            <MDBBtn className= 'd-block'color="secondary">CONTACTO</MDBBtn>
           </MDBNavbarNav>
         </MDBCollapse>
-        <MDBBtn color="primary">CONTACTO</MDBBtn>
       </MDBContainer>
     </MDBNavbar>
   );
