@@ -15,16 +15,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -f"
+    "test:watch": "vitest"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
     "@vitejs/plugin-react": "^6.2.1",
-    "gh-pages": "^6.1.1",
     "jsdom": "^31.0.0",
     "sharp": "^0.35.5",
     "vite": "^8.3.6",

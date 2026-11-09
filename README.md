@@ -20,4 +20,3 @@ La app se sirve en `http://localhost:5173/landing-page-transports/`.
 - `npm run preview`: previsualiza el build.
 - `npm test`: tests con Vitest.
 - `npm run test:watch`: tests en modo watch.
-- `npm run deploy`: publica `dist/` en GitHub Pages.
