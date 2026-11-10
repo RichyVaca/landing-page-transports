@@ -139,6 +139,7 @@
 .mv-hero__media img {
   object-fit: cover;
   object-position: center 45%;
+  transform: scaleX(-1);
 }
 
 .mv-hero__overlay {
@@ -255,7 +256,9 @@
 }
 
 .mv-about__main {
+  position: relative;
   display: block;
+  width: 82%;
   overflow: hidden;
   border-radius: 1.25rem;
   box-shadow: var(--mv-shadow);
@@ -264,16 +267,17 @@
 .mv-about__main img {
   display: block;
   width: 100%;
-  height: clamp(280px, 40vw, 450px);
+  height: clamp(340px, 44vw, 500px);
   object-fit: cover;
+  object-position: center 40%;
 }
 
 .mv-about__accent {
   position: absolute;
-  right: -0.25rem;
+  right: 0;
   bottom: 0;
   display: block;
-  width: 44%;
+  width: 46%;
   overflow: hidden;
   border: 6px solid #fff;
   border-radius: 1rem;
@@ -283,8 +287,9 @@
 .mv-about__accent img {
   display: block;
   width: 100%;
-  height: 180px;
+  height: 210px;
   object-fit: cover;
+  object-position: center 55%;
 }
 
 .mv-about__badge {
@@ -884,6 +889,14 @@
 
   .mv-about__accent {
     display: none;
+  }
+
+  .mv-about__media {
+    padding-bottom: 0;
+  }
+
+  .mv-about__main {
+    width: 100%;
   }
 
   .mv-about__main img {

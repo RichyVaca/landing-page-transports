@@ -28,3 +28,19 @@ yarn-debug.log*
 yarn-error.log*
 .claveSSH
 .claveSSH.pub
+
+# SSH keys, certificates and secrets
+claveSSH
+claveSSH.pub
+psw
+psw.pub
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+*.kdbx

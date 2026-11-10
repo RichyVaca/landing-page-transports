@@ -10,7 +10,7 @@ const output = path.join(assets, "generated");
 await mkdir(output, { recursive: true });
 
 const images = [
-  { input: "hero-source.jpg", name: "hero", widths: [768, 1100, 1376] },
+  { input: "truck_red.jpg", name: "hero", widths: [768, 1100, 1376] },
   { input: "imgCour2.jpg", name: "nosotros", widths: [640, 960] },
   { input: "imgCour3.jpg", name: "nosotros-alt", widths: [480, 720] },
 ];

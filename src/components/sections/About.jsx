@@ -34,19 +34,19 @@ const About = () => {
               <picture className="mv-about__main">
                 <source
                   type="image/avif"
-                  srcSet={`${nosotros640Avif} 640w, ${nosotros960Avif} 960w`}
-                  sizes="(max-width: 992px) 100vw, 50vw"
+                  srcSet={`${alt480Avif} 480w, ${alt720Avif} 720w`}
+                  sizes="(max-width: 576px) 100vw, (max-width: 992px) 82vw, 41vw"
                 />
                 <source
                   type="image/webp"
-                  srcSet={`${nosotros640Webp} 640w, ${nosotros960Webp} 960w`}
-                  sizes="(max-width: 992px) 100vw, 50vw"
+                  srcSet={`${alt480Webp} 480w, ${alt720Webp} 720w`}
+                  sizes="(max-width: 576px) 100vw, (max-width: 992px) 82vw, 41vw"
                 />
                 <img
-                  src={nosotrosJpg}
-                  alt="Unidad de carga de Transportes MORVAC en operación"
-                  width="960"
-                  height="499"
+                  src={altJpg}
+                  alt="Camión de carga blanco circulando por una carretera de montaña"
+                  width="720"
+                  height="1080"
                   loading="lazy"
                   decoding="async"
                 />
@@ -55,19 +55,19 @@ const About = () => {
               <picture className="mv-about__accent">
                 <source
                   type="image/avif"
-                  srcSet={`${alt480Avif} 480w, ${alt720Avif} 720w`}
-                  sizes="(max-width: 992px) 46vw, 22vw"
+                  srcSet={`${nosotros640Avif} 640w, ${nosotros960Avif} 960w`}
+                  sizes="(max-width: 992px) 46vw, 23vw"
                 />
                 <source
                   type="image/webp"
-                  srcSet={`${alt480Webp} 480w, ${alt720Webp} 720w`}
-                  sizes="(max-width: 992px) 46vw, 22vw"
+                  srcSet={`${nosotros640Webp} 640w, ${nosotros960Webp} 960w`}
+                  sizes="(max-width: 992px) 46vw, 23vw"
                 />
                 <img
-                  src={altJpg}
-                  alt="Detalle de una unidad de transporte en ruta"
-                  width="720"
-                  height="1080"
+                  src={nosotrosJpg}
+                  alt="Unidad de carga de Transportes MORVAC al atardecer"
+                  width="960"
+                  height="499"
                   loading="lazy"
                   decoding="async"
                 />

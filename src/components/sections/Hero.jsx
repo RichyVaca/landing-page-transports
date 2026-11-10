@@ -25,7 +25,7 @@ const Hero = () => {
           />
           <img
             src={heroJpg}
-            alt="Ilustración de un camión de carga en una mina a cielo abierto"
+            alt="Camión de carga rojo conduciendo por una carretera de montaña"
             width="1376"
             height="768"
             fetchpriority="high"
